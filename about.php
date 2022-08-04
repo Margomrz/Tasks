@@ -21,25 +21,7 @@
         <li class="nav-item"><a href="#" class="nav-link">Войти</a></li>
       </ul>
     </header>
-    <div class="container mt-5">
-        <h1>Статьи</h1>
-        <div class="d-flex flex-wrap">
-            <?php for ($i = 0; $i < 5; $i ++): ?>
-                <div class="feature col">
-                    <img src="img/<? php echo $i ?>.jpeg", alt="Sorry" class="thumbnail">
-                    <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                        <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
-                    </div>
-                    <h2>Featured title</h2>
-                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                    <a href="#" class="icon-link d-inline-flex align-items-center">
-                        Call to action
-                        <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
-                    </a>
-                </div>
-            <?php endfor; ?>
-    </div>
-    </div>
+  
     <footer>
         <div class="bg-dark text-secondary px-4 py-5 text-center">
         <div class="py-5">
